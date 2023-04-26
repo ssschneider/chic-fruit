@@ -1,0 +1,58 @@
+{
+    "fruits": [
+        {
+            "id": 1,
+            "fruit": "Maçã Vermelha",
+            "image": "https://conteudo.imguol.com.br/c/entretenimento/32/2018/01/18/maca-1516308281068_v2_3x4.jpg",
+            "description": "Maçã Fuji, Gala ou Argentina, smepre deoces e suculentas"
+        },
+        {
+            "id": 2,
+            "fruit": "Laranja",
+            "image": "https://www.remedio-caseiro.com/wp-content/uploads/2014/02/20190923-laranjas-1200x675.jpg",
+            "description": "Grandes e deliciosas laranjas do tipo Bahia, Seleta, Folha-Murcha ou Lima"
+        },
+        {
+            "id": 3,
+            "fruit": "Abacaxi",
+            "image": "https://conteudo.imguol.com.br/c/entretenimento/04/2017/12/11/abacaxi-1513012505452_v2_3x4.jpg",
+            "description": "Deleciosos abacaxis do tipo Pérola, Smooth Cayenne ou Jupis para adoçar o seu dia"
+        },
+        {
+            "id": 4,
+            "fruit": "Uvas Roxas",
+            "image": "https://www.jacarei.sp.gov.br/wp-content/uploads/2018/01/Uva_1.jpg",
+            "description": "Uvas Itália, Thompson, Crimson e Rubi para melhorar o dia de qualquer um"
+        },
+        {
+            "id": 5,
+            "fruit": "Mamão",
+            "image": "https://www.saudeemdia.com.br/antigas/uploads/mamao_widexl.jpg",
+            "description": "Mamão do tipo Formosa ou Papaya para deixar sua mesa mais saudável"
+        },
+        {
+            "id": 6,
+            "fruit": "Manga",
+            "image": "https://ceagesp.gov.br/wp-content/uploads/2015/11/manga-600x469.jpg",
+            "description": "Manga Espada, Tommy, Palma ou Rosa para melhorarem o seu dia"
+        },
+        {
+            "id": 7,
+            "fruit": "Abacate",
+            "image": "https://vitat.com.br/wp-content/uploads/2022/04/receitas-com-abacate-11.jpg",
+            "description": "Abacates versáteis dos tipos Breda, Fortuna, Hass e Ouro Verde para qualquer momento"
+        },
+        {
+            "id": 8,
+            "fruit": "Acerola",
+            "image": "https://media.istockphoto.com/id/1131407633/pt/foto/close-up-of-fresh-acerola-cherry-fruits.jpg?s=612x612&w=0&k=20&c=Ry0fKzYUKJYK9FJ9cuurUaha6EsVsM_zBty_sxlYois=",
+            "description": "Acerolas de montão dos tipos Apodi, Cabocla e Cereja para tornarem seus dias mais ricos"
+        },
+        {
+            "id": 9,
+            "fruit": "Jabuticaba",
+            "image": "https://p2.trrsf.com/image/fget/cf/942/530/images.terra.com/2022/10/28/251793143-jabuticaba.jpg",
+            "description": "Jabuticabas lindas e maduras dos tipos Cambucá, Branca e Sabará"
+        }
+    ]
+}
