@@ -7,6 +7,7 @@ export const GlobalStyles = createGlobalStyle`
         box-sizing: border-box;
         font: 400 62.5% 'Josefin Slab', serif;
         transition: .5s linear;
+        text-decoration: none;
     }
 
     body {
@@ -16,9 +17,5 @@ export const GlobalStyles = createGlobalStyle`
 
     a, button {
         cursor: pointer;
-    }
-
-    a:hover, button:hover {
-        filter: brightness(0.9);
     }
 `;
