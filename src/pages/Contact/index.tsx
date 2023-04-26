@@ -7,7 +7,7 @@ import { Section } from "../../components/Section";
 import fruitsData from "../../db.json";
 
 export const Contact = () => {
-	return (
+    return (
 		<Wrapper>
 			<div className="hero">
 				<Header />
@@ -22,21 +22,21 @@ export const Contact = () => {
 							label="Nome completo"
 							id="fullName"
 							placeholder="Seu nome completo"
-							onChange={() => console.log("digitando")}
+							required
 						/>
 
 						<Input
 							label="Telefone para Contato"
 							id="telephone"
 							placeholder="+55 11 99999-9999"
-							onChange={() => console.log("digitando")}
+							required
 						/>
 
 						<Input
 							label="Endereço de Entrega"
 							id="address"
 							placeholder="Av. Nossa Senhora de Copacabana, 1000, apto 101 - Copacabana"
-							onChange={() => console.log("digitando")}
+							required
 						/>
 					</fieldset>
 
@@ -49,7 +49,7 @@ export const Contact = () => {
                                 <option value="">Selecione</option>
 								{fruitsData.fruits.map((fruit) => {
 									return (
-										<option value={fruit.fruit}>
+										<option value={fruit.fruit} id={fruit.fruit}>
 											{fruit.fruit}
 										</option>
 									);
@@ -86,7 +86,11 @@ export const Contact = () => {
                         </Observations>
 					</fieldset>
 
-                    <Button>Realizar Pedido</Button>
+                    <Button 
+                        onClick={() => alert("Seu pedido foi concluído!")}
+                    >
+                        Realizar Pedido
+                    </Button>
 				</form>
 			</Section>
 		</Wrapper>
