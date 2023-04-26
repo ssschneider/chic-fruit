@@ -4,7 +4,8 @@ export const Wrapper = styled.header`
     background-color: transparent;
     width: 100%;
     max-width: 90%;
-    margin: 3.2rem auto;
+    margin: 0 auto;
+    padding: 3.2rem 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
