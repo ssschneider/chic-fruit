@@ -18,4 +18,11 @@ export const Wrapper = styled.section`
         text-align: justify;
         margin: 2rem 0;
     }
+
+    .products {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 4.2rem;
+    }
 `;
