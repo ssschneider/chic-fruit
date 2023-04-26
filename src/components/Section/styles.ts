@@ -25,4 +25,10 @@ export const Wrapper = styled.section`
         grid-template-rows: repeat(3, 1fr);
         gap: 4.2rem;
     }
+
+    .services {
+        display: flex;
+        flex-direction: column;
+        gap: 6.4rem;
+    }
 `;

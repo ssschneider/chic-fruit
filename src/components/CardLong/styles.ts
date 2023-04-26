@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
     width: 100%;
     display: flex;
+    flex-direction: row-reverse;
     justify-content: space-between;
     align-items: center;
     gap: 8rem;
@@ -10,7 +11,7 @@ export const Wrapper = styled.div`
     .content {
         display: flex;
         flex-direction: column;
-        align-items: flex-end;
+        align-items: flex-start;
         gap: 1.6rem;
         max-width: 75rem;
 
@@ -25,7 +26,11 @@ export const Wrapper = styled.div`
         }
     }
 
-    &:nth-child(even) {
-        flex-direction: row-reverse;
+    &:nth-child(odd) {
+        flex-direction: row;
+
+        .content {
+            align-items: flex-end;
+        }
     }
 `;

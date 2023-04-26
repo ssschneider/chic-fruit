@@ -9,7 +9,7 @@ interface Props {
 export const CardLong = ({ title, description, icon: Icon }: Props) => {
     return (
         <Wrapper>
-            <Icon size={24}/>
+            <Icon size={240}/>
 
             <div className="content">
                 <h3>{title}</h3>
